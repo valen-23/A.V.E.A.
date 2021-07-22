@@ -9,7 +9,8 @@
   }
 
   .banner {
-    height: 100vh;
+    height: 90vh;
+    background-attachment: none !important;
   }
 
   .banner_content {
@@ -116,7 +117,8 @@
   }
 
   .banner {
-    height: 100vh;
+    height: 92vh;
+    background-attachment: none !important;
   }
 
   .banner_content {
@@ -126,7 +128,7 @@
   }
 
   .content1 h2 {
-    font-size: 35px;
+    font-size: 32px;
   }
 
   .content1 span {
@@ -171,16 +173,20 @@
   }
 
   .card_header {
-    padding: 0 15px;
+    padding: 5px 15px;
   }
 
   .card_header h2{
-    font-size: 28px;
+    font-size: 26px;
   }
 
   .card_header p{
     font-size: 23px;
-    margin-top: -20px;
+    margin-top: 0;
+  }
+
+  .card:hover img {
+    transform: none;
   }
 
   .drawer {
