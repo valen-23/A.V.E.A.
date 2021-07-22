@@ -1,5 +1,4 @@
 import Tooltip from "@material-ui/core/Tooltip"
-import React from "react"
 import martinez from "../assets/martinez.png"
 import pagani from "../assets/pagani.png"
 import perez from "../assets/perez.png"

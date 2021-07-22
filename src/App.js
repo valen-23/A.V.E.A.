@@ -23,7 +23,7 @@ import "./index.css";
 import "./movile.css";
 
 function App() {
-  const [champagnes, setCards] = React.useState([
+  const [champagnes] = React.useState([
     {
       title: "Chandon Burt +",
       image: champagne1,
@@ -49,7 +49,7 @@ function App() {
       Tooltip: "(doscientos pesos argentinos)",
     },
   ]);
-  const [vinos, setCards2] = React.useState([
+  const [vinos] = React.useState([
     {
       title: "Malbec Rosado",
       image: "",
@@ -75,7 +75,7 @@ function App() {
       Tooltip: "( pesos argentinos)",
     },
   ]);
-  const [sidras, setCards3] = React.useState([
+  const [sidras] = React.useState([
     {
       title: "Sidra 1",
       image: "",
