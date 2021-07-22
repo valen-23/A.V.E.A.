@@ -13,7 +13,7 @@ export default function CardProducts(props) {
     <Card className="card">
       {isOpen && (
         <div className="drawer">
-          <a href="#">Reportar</a>
+          <a href="">Reportar</a>
           <a href="#ayuda">Ayuda</a>
         </div>
       )}
@@ -33,7 +33,7 @@ export default function CardProducts(props) {
       <img src={props.card.image} alt="" className="card_img" />
 
       <Tooltip title="Realizá tu pedido por Wathsapp">
-        <a href="https://wa.me/5493534174147?text=Hola!! Estoy interesado en uno de sus productos..." target="_blank" rel = "noreferrer">
+        <a href="https://wa.me/5493534174147?text=Hola!! Estoy interesado en uno de sus productos..." target="_blank" rel="noreferrer">
           COMPRAR
         </a>
       </Tooltip>
