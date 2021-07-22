@@ -1,6 +1,5 @@
 import React, { useState } from "react";
 import Card from "@material-ui/core/Card";
-import CardActions from "@material-ui/core/CardActions";
 import IconButton from "@material-ui/core/IconButton";
 import Tooltip from "@material-ui/core/Tooltip";
 import MoreVertIcon from "@material-ui/icons/MoreVert";
@@ -33,13 +32,11 @@ export default function CardProducts(props) {
 
       <img src={props.card.image} alt="" className="card_img" />
 
-      <CardActions disableSpacing>
-        <Tooltip title="Realizá tu pedido por Wathsapp">
-          <a href="https://wa.me/5493534174147?text=Hola!! Estoy interesado en uno de sus productos..." target="_blank" >
-            COMPRAR
-          </a>
-        </Tooltip>
-      </CardActions>
+      <Tooltip title="Realizá tu pedido por Wathsapp">
+        <a href="https://wa.me/5493534174147?text=Hola!! Estoy interesado en uno de sus productos..." target="_blank" >
+          COMPRAR
+        </a>
+      </Tooltip>
     </Card>
   );
 }
