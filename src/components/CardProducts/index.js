@@ -32,7 +32,7 @@ export default function CardProducts(props) {
         <p>{props.card.price}</p>
       </div>
 
-      <img src={props.card.image} className="card_img" />
+      <img src={props.card.image} alt="" className="card_img" />
 
       <CardActions disableSpacing>
         <Tooltip title="Realizá tu pedido por Wathsapp">

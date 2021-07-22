@@ -10,16 +10,16 @@ function Perfiles() {
       <h2>NOSOTROS</h2>
       <div className="content">
         <Tooltip title="Martinez Emi">
-          <img src={martinez} />
+          <img src={martinez} alt="" />
         </Tooltip>
         <Tooltip title="Pagani Valentino">
-          <img src={pagani} />
+          <img src={pagani} alt="" />
         </Tooltip>
         <Tooltip title="Pérez Agustín">
-          <img src={perez} />
+          <img src={perez} alt="" />
         </Tooltip>
         <Tooltip title="Zanellato Agustín">
-          <img src={zanellato} />
+          <img src={zanellato} alt="" />
         </Tooltip>
         </div>
     </div>

@@ -18,7 +18,6 @@ import ilust2 from "./assets/undraw_nature_m5ll.svg";
 import InstagramIcon from "@material-ui/icons/Instagram";
 import FacebookIcon from "@material-ui/icons/Facebook";
 import WhatsAppIcon from "@material-ui/icons/WhatsApp";
-import Tooltip from "@material-ui/core/Tooltip";
 import "./index.css";
 import "./movile.css";
 
@@ -113,7 +112,7 @@ function App() {
 
       <TransitionAlerts />
 
-      <img src={ilust} className="ilust" />
+      <img src={ilust} alt="" className="ilust" />
 
       <div id="productos"></div>
 
@@ -143,7 +142,7 @@ function App() {
       <div className="timeline_pedido" id="ayuda">
         <CustomizedTimeline />
 
-          <img src={ilust2} className="ilust2" />
+          <img src={ilust2} alt="" className="ilust2" />
       </div>
 
       {/* <SecondBanner /> */}
