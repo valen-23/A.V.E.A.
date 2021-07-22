@@ -13,7 +13,7 @@ export default function CardProducts(props) {
     <Card className="card">
       {isOpen && (
         <div className="drawer">
-          <a href="">Reportar</a>
+          <a href="mailto:paganivalentinosk@gmail.com">Reportar</a>
           <a href="#ayuda">Ayuda</a>
         </div>
       )}
