@@ -37,9 +37,7 @@ export default function CardProducts(props) {
       <CardActions disableSpacing>
         <Tooltip title="Realizá tu pedido por Wathsapp">
           <a href="https://wa.me/5493534174147?text=Hola!! Estoy interesado en uno de sus productos..." target="_blank" >
-            <Button variant="contained" color="primary">
-              comprar
-            </Button>
+            COMPRAR
           </a>
         </Tooltip>
       </CardActions>
