@@ -44,13 +44,19 @@
    border-radius: 10px 0 10px 10px;
 }
 
-.drawer a {
+a {
    margin: 0;
+   padding: 0;
    color: #333;
    font-size: 17px;
 }
 
-.drawer a:hover {
+.drawer a {
+   margin: 10px;
+   padding: 2px;
+}
+
+a:hover {
    color: black;
    transform: none;
    background: none;
