@@ -1,0 +1,226 @@
+@media screen and (max-width: 1100px) {
+  
+  .ilust, .ilust2, #timeline {
+    display: none;
+  }
+  
+  *:hover {
+    transform: none !important;
+  }
+
+  .banner {
+    height: 100vh;
+  }
+
+  .banner_content {
+    padding: 0;
+    text-align: center;
+    flex-direction: column;
+  }
+
+  .content1 h2 {
+    font-size: 60px;
+  }
+
+  .content1 span {
+    font-size: 20px;
+  }
+
+  .content1 p {
+    font-size: 35px;
+  }
+
+  .content2 {
+    padding: 0;
+  }
+
+  .content2 img{
+    width: 500px;
+  }
+
+  .home_title {
+    font-size: 50px;
+    margin-top: 0;
+    padding: 20px 0;
+  }
+
+  .card {
+    width: 300px;
+    height: 385px;
+  }
+
+  .home_content {
+    display: grid;
+    column-gap: 30px;
+    grid-template-columns: repeat(2,1fr);
+  }
+
+  .card:hover{
+    transform: none;
+  }
+ 
+  .card:active{
+    transform: none
+  }
+
+  .card_header {
+    padding: 0 15px;
+  }
+
+  .card_header h2{
+    font-size: 28px;
+  }
+
+  .card_header p{
+    font-size: 23px;
+    margin-top: -20px;
+  }
+
+  .drawer {
+    width: 110px;
+    height: 110px;
+  }
+ 
+ .drawer a {
+    margin: 10px;
+    padding: 5px;
+    font-size: 20px;
+  }
+  
+  .container h2{
+    font-size: 35px;
+  }
+
+  .acercade h2 {
+    font-size: 35px;
+  }
+
+  .acercade p {
+    font-size: 25px;
+  }
+ 
+  footer span {
+    font-size: 30px;
+  }
+
+}
+
+@media screen and (max-width: 800px) {
+  
+  .ilust, .ilust2, #timeline {
+    display: none;
+  }
+  
+  *:hover {
+    transform: none !important;
+  }
+
+  .banner {
+    height: 100vh;
+  }
+
+  .banner_content {
+    padding: 0;
+    text-align: center;
+    flex-direction: column;
+  }
+
+  .content1 h2 {
+    font-size: 35px;
+  }
+
+  .content1 span {
+    font-size: 10px;
+  }
+
+  .content1 p {
+    font-size: 20px;
+  }
+
+  .content2 {
+    padding: 0;
+  }
+
+  .content2 img{
+    width: 300px;
+  }
+
+  .home_title {
+    font-size: 30px;
+    margin-top: 0;
+    padding: 20px 0;
+  }
+
+  .card {
+    width: 300px;
+    height: 385px;
+  }
+
+  .home_content {
+    display: grid;
+    column-gap: 30px;
+    grid-template-columns: repeat(1,1fr);
+  }
+
+  .card:hover{
+    transform: none;
+  }
+ 
+  .card:active{
+    transform: none
+  }
+
+  .card_header {
+    padding: 0 15px;
+  }
+
+  .card_header h2{
+    font-size: 28px;
+  }
+
+  .card_header p{
+    font-size: 23px;
+    margin-top: -20px;
+  }
+
+  .drawer {
+    width: 110px;
+    height: 110px;
+  }
+ 
+  .drawer a {
+    margin: 10px;
+    padding: 5px;
+    font-size: 20px;
+  }
+
+  .banner_content2 h2 {
+    width: 98%;
+    font-size: 25px;
+  }
+
+  .container {
+    width: 80%;
+  }
+  
+  .container h2{
+    font-size: 25px;
+  }
+
+  .container .content img{
+    width: 65px;
+  }
+
+  .acercade h2 {
+    font-size: 25px;
+  }
+
+  .acercade p {
+    font-size: 15px;
+  }
+ 
+  footer span {
+    font-size: 20px;
+  }
+
+}
