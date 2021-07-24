@@ -14,7 +14,7 @@
 
   .banner {
     height: 90vh;
-    background-attachment: none !important;
+    background-attachment: unset;
   }
 
   .banner_content {
@@ -41,6 +41,10 @@
 
   .content2 img{
     width: 500px;
+  }
+
+  .banner2 {
+    background-attachment: unset;
   }
 
   .home_title {
