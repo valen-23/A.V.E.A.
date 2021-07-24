@@ -93,63 +93,78 @@ export default function Navbar() {
   };
 
   return (
-    <div className={classes.root}>
-      <cssBaseline />
-      <AppBar
-        position="fixed"
-        className={clsx(classes.appBar, {
-          [classes.appBarShift]: open,
-        })}
-      >
-        <Toolbar>
-          <img src={Logo} alt="logo" className="logo" />
-          <Typography variant="h6" noWrap className={classes.title}>
-            A.V.E.A.  <EcoIcon />
-          </Typography>
-          <Tooltip title="Abrir Menú">
-            <IconButton
-              color="inherit"
-              fontSize="1.5vw !important"
-              aria-label="open drawer"
-              edge="end"
-              onClick={handleDrawerOpen}
-              className={clsx(open && classes.hide)}
-            >
-              <MenuIcon />
-            </IconButton>
-          </Tooltip>
-        </Toolbar>
-      </AppBar>
-      <Drawer
-        className={classes.drawer}
-        variant="persistent"
-        anchor="right"
-        open={open}
-        classes={{
-          paper: classes.drawerPaper,
-        }}
-      >
-        <div className={classes.drawerHeader}>
-          <Tooltip title="Cerrar Menú">
-            <IconButton onClick={handleDrawerClose}>
-              {theme.direction === "rtl" ? (
-                <ChevronLeftIcon />
-              ) : (
-                <ChevronRightIcon />
-              )}
-            </IconButton>
-          </Tooltip>
+    <>
+      <div className="navbar">
+        <img src={Logo} alt="avea logo" />
+        <nav>
+          <a href="#">Inicio</a>
+          <a href="#">Nosotros</a>
+          <a href="#">Champagnes</a>
+          <a href="#">Vinos</a>
+          <a href="#">Sidras</a>
+        </nav>
+      </div>
+
+      <div className="navbar_mobile">
+        <div className={classes.root}>
+          <cssBaseline />
+          <AppBar
+            position="fixed"
+            className={clsx(classes.appBar, {
+              [classes.appBarShift]: open,
+            })}
+          >
+            <Toolbar>
+              <img src={Logo} alt="logo" className="logo" />
+              <Typography variant="h6" noWrap className={classes.title}>
+                A.V.E.A.  <EcoIcon />
+              </Typography>
+              <Tooltip title="Abrir Menú">
+                <IconButton
+                  color="inherit"
+                  fontSize="1.5vw !important"
+                  aria-label="open drawer"
+                  edge="end"
+                  onClick={handleDrawerOpen}
+                  className={clsx(open && classes.hide)}
+                >
+                  <MenuIcon />
+                </IconButton>
+              </Tooltip>
+            </Toolbar>
+          </AppBar>
+          <Drawer
+            className={classes.drawer}
+            variant="persistent"
+            anchor="right"
+            open={open}
+            classes={{
+              paper: classes.drawerPaper,
+            }}
+          >
+            <div className={classes.drawerHeader}>
+              <Tooltip title="Cerrar Menú">
+                <IconButton onClick={handleDrawerClose}>
+                  {theme.direction === "rtl" ? (
+                    <ChevronLeftIcon />
+                  ) : (
+                    <ChevronRightIcon />
+                  )}
+                </IconButton>
+              </Tooltip>
+            </div>
+            <List>
+              <a href="#inicio">Inicio</a>
+              <a href="#nosotros">Nosotros</a>
+              <hr />
+              <a href="#champagnes">Champagnes</a>
+              <a href="#vinos">Vinos</a>
+              <a href="#sidras">Sidras</a>
+              <hr />
+            </List>
+          </Drawer>
         </div>
-        <List>
-          <a href="#inicio">Inicio</a>
-          <a href="#nosotros">Nosotros</a>
-          <hr />
-          <a href="#champagnes">Champagnes</a>
-          <a href="#vinos">Vinos</a>
-          <a href="#sidras">Sidras</a>
-          <hr />
-        </List>
-      </Drawer>
-    </div>
+      </div>
+    </>
   );
 }

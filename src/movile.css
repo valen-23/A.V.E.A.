@@ -1,11 +1,15 @@
 @media screen and (max-width: 1100px) {
   
-  .ilust, .ilust2, #timeline {
+  .ilust, .ilust2, #timeline, .navbar {
     display: none;
   }
   
   *:hover {
     transform: none !important;
+  }
+
+  .navbar_mobile {
+    display: flex;
   }
 
   .banner {
