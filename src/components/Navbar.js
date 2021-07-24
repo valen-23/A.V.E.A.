@@ -97,11 +97,11 @@ export default function Navbar() {
       <div className="navbar">
         <img src={Logo} alt="avea logo" />
         <nav>
-          <a href="#">Inicio</a>
-          <a href="#">Nosotros</a>
-          <a href="#">Champagnes</a>
-          <a href="#">Vinos</a>
-          <a href="#">Sidras</a>
+          <a href="#inicio">Inicio</a>
+          <a href="#nosotros">Nosotros</a>
+          <a href="#champagnes">Champagnes</a>
+          <a href="#vinos">Vinos</a>
+          <a href="#sidras">Sidras</a>
         </nav>
       </div>
 
