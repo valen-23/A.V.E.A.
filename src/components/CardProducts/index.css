@@ -1,99 +1,99 @@
 .card {
-   margin-top: 25px;
-   width: 280px;
-   height: 345px;
-   position: relative;
-   border: 1px solid #eee;
-   transition: all .2s !important;
+  margin-top: 25px;
+  width: 280px;
+  height: 345px;
+  position: relative;
+  border: 1px solid #eee;
+  transition: all 0.2s !important;
 }
 
-.card:hover img{
-   transform: scale(1.04);
+.card:hover img {
+  transform: scale(1.04);
 }
 
 .card_header {
-   padding: 10px 15px 0 15px;
-   margin-bottom: 20px;
+  padding: 10px 15px 0 15px;
+  margin-bottom: 20px;
 }
 
-.card_header h2{
-   font-size: 23px;
+.card_header h2 {
+  font-size: 23px;
 }
 
-.card_header p{
-   color: #222;
-   margin-top: -5px;
+.card_header p {
+  color: #222;
+  margin-top: -5px;
 }
 
 .drawer_bt {
-   position: absolute !important;
-   right: 0;
-   top: 5px;
+  position: absolute !important;
+  right: 0.2vw;
+  top: 5px;
 }
 
 .drawer {
-   position: absolute;
-   right: 5px;
-   top: 50px;
-   width: 100px;
-   height: 95px;
-   display: flex;
-   flex-direction: column;
-   background-color: #eee;
-   z-index: 99;
-   border-radius: 10px 0 10px 10px;
+  position: absolute;
+  right: 5px;
+  top: 60px;
+  width: 100px;
+  height: 90px;
+  display: flex;
+  flex-direction: column;
+  background-color: #eee;
+  z-index: 99;
+  border-radius: 10px 0 10px 10px;
 }
 
 .card a {
-   color: #fff;
-   margin: 0 auto;
-   font-size: 15px;
-   padding: 10px;
-   width: 50%;
-   margin-top: 8px;
-   text-align: center;
-   background-color: #720b18;
-   transition: all .2s;
+  color: #fff;
+  margin: 0 auto;
+  font-size: 15px;
+  padding: 10px;
+  width: 50%;
+  margin-top: 8px;
+  text-align: center;
+  background-color: #720b18;
+  transition: all 0.2s;
 }
 
 .card a:hover {
-   color: #fff;
-   background-color: #9c1e2f;
+  color: #fff;
+  background-color: #9c1e2f;
 }
 
 .drawer a {
-   font-size: 17px;
-   margin: 10px;
-   padding: 2px;
-   color: #333;
-   background: none;
+  font-size: 17px;
+  margin: 10px;
+  padding: 2px;
+  color: #333;
+  background: none;
 }
 
 .drawer a:hover {
-   color: black;
-   transform: none;
-   background: none;
+  color: black;
+  transform: none;
+  background: none;
 }
 
 .card_img {
-   width: 100%;
-   height: 200px;
-   margin-top: -5px;
-   transition: all .2s;
+  width: 100%;
+  height: 200px;
+  margin-top: -5px;
+  transition: all 0.2s;
 }
 
 .add_bt {
-   transition: all .5s !important;
+  transition: all 0.5s !important;
 }
 
 .share_bt {
-   transition: all .5s !important;
+  transition: all 0.5s !important;
 }
 
 .add_bt:hover {
-   color: #333 !important;
+  color: #333 !important;
 }
 
 .share_bt:hover {
-   color: #333 !important;
+  color: #333 !important;
 }

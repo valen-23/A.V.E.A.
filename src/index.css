@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&family=Zen+Tokyo+Zoo&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300&family=Zen+Tokyo+Zoo&display=swap");
 
 * {
   scroll-behavior: smooth;
@@ -9,7 +9,7 @@
 body {
   margin: 0;
   padding: 0;
-  font-family: 'Poppins';
+  font-family: "Poppins";
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   background-color: white;
@@ -41,6 +41,7 @@ hr {
   position: fixed;
   display: flex;
   align-items: center;
+  border-bottom: 1px solid #eee;
 }
 
 .navbar img {
@@ -55,7 +56,7 @@ hr {
   margin: auto;
 }
 
-.navbar nav a{
+.navbar nav a {
   display: inline-block !important;
 }
 
@@ -73,7 +74,7 @@ a {
   font-size: 22px;
   padding: 2vh 1vw;
   border-radius: 5px;
-  transition: all .4s;
+  transition: all 0.4s;
   text-decoration: none;
   font-family: Arial, Helvetica, sans-serif;
 }
@@ -97,7 +98,7 @@ button {
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  margin: auto; 
+  margin: auto;
 }
 
 .home_title {
@@ -111,7 +112,7 @@ button {
 .home_content {
   display: grid;
   column-gap: 30px;
-  grid-template-columns: repeat(4,2fr);
+  grid-template-columns: repeat(4, 2fr);
 }
 
 .ilust {
@@ -119,7 +120,7 @@ button {
   position: absolute;
   left: 1vw;
   bottom: -10vh;
-  transition: all .2s;
+  transition: all 0.2s;
 }
 
 .timeline_pedido {
@@ -132,7 +133,7 @@ button {
   position: absolute;
   right: -15vw;
   bottom: 2vh;
-  transition: all .5s;
+  transition: all 0.5s;
 }
 
 .ilust2:hover {
@@ -145,7 +146,7 @@ button {
   height: 100%;
   background-size: cover;
   background-attachment: fixed;
-  background-image: url('https://www.publicdomainpictures.net/pictures/270000/velka/vineyards-web-banner.jpg');
+  background-image: url("https://www.publicdomainpictures.net/pictures/270000/velka/vineyards-web-banner.jpg");
 }
 
 .banner_content2 {
@@ -172,7 +173,7 @@ button {
   margin-bottom: 50px;
 }
 
-.container h2{
+.container h2 {
   text-align: center;
   margin-bottom: 30px;
 }
@@ -183,7 +184,7 @@ button {
   justify-content: space-between;
 }
 
-.container .content img{
+.container .content img {
   width: 130px;
 }
 

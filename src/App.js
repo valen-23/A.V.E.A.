@@ -142,13 +142,16 @@ function App() {
       <div className="timeline_pedido" id="ayuda">
         <CustomizedTimeline />
 
-          <img src={ilust2} alt="" className="ilust2" />
+        <img src={ilust2} alt="" className="ilust2" />
       </div>
 
       {/* <SecondBanner /> */}
       <div className="banner2">
         <div className="banner_content2">
-          <h2>En A.V.E.A., nos dedicamos a la importación de vinos y espumantes de la mejor calidad</h2>
+          <h2>
+            En A.V.E.A., nos dedicamos a la importación de vinos y espumantes de
+            la mejor calidad
+          </h2>
         </div>
       </div>
 
@@ -166,11 +169,16 @@ function App() {
       <div id="nosotros" />
       <Perfiles />
       <hr />
-      {/* <AcercaDe /> */}
       <div className="acercade">
         <h2>ACERCA DE</h2>
         <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta ipsa natus saepe maiores quia repellat dolores sapiente quod sint fuga ab facere, molestiae officia nobis! Perferendis quo esse exercitationem aliquam. Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit ut, rem alias nam molestiae magnam excepturi quod minima? Quam vero a saepe voluptates nam ipsa accusamus amet modi recusandae laborum?
+          Poder liderar el mercado referido a nuestro rubro, lograr que nuestros
+          clientes se vayan sumamente satisfechos con nuestros productos,
+          fidelizando nuestra relación para que nos vuelvan a elegir para
+          futuras compras. Contamos con las mejores marcas y productos que
+          ningún otro comercio cuenta con ellos, la mejor atención personalizada
+          al cliente, nos capacitamos continuamente para lograr una mayor gama
+          de conocimientos actuales, contamos con todos los métodos de pago.
         </p>
       </div>
 
