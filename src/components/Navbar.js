@@ -8,7 +8,7 @@ import List from "@material-ui/core/List";
 import Typography from "@material-ui/core/Typography";
 import IconButton from "@material-ui/core/IconButton";
 import MenuIcon from "@material-ui/icons/Menu";
-import EcoIcon from '@material-ui/icons/Eco';
+import EcoIcon from "@material-ui/icons/Eco";
 import ChevronLeftIcon from "@material-ui/icons/ChevronLeft";
 import ChevronRightIcon from "@material-ui/icons/ChevronRight";
 import Tooltip from "@material-ui/core/Tooltip";
@@ -23,7 +23,7 @@ const useStyles = makeStyles((theme) => ({
   appBar: {
     background: "#fff",
     color: "#720b18",
-    height: "75px",
+    height: "65px",
     paddingTop: "5px",
     transition: theme.transitions.create(["margin", "width"], {
       easing: theme.transitions.easing.sharp,
@@ -41,7 +41,7 @@ const useStyles = makeStyles((theme) => ({
   title: {
     flexGrow: 1,
     fontSize: "30px",
-    fontFamily: 'Zen Tokyo Zoo',
+    fontFamily: "Zen Tokyo Zoo",
   },
   hide: {
     display: "none",
@@ -117,7 +117,7 @@ export default function Navbar() {
             <Toolbar>
               <img src={Logo} alt="logo" className="logo" />
               <Typography variant="h6" noWrap className={classes.title}>
-                A.V.E.A.  <EcoIcon />
+                A.V.E.A. <EcoIcon />
               </Typography>
               <Tooltip title="Abrir Menú">
                 <IconButton

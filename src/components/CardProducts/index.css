@@ -82,18 +82,9 @@
   transition: all 0.2s;
 }
 
-.add_bt {
+.bt_buy {
   transition: all 0.5s !important;
-}
-
-.share_bt {
-  transition: all 0.5s !important;
-}
-
-.add_bt:hover {
-  color: #333 !important;
-}
-
-.share_bt:hover {
-  color: #333 !important;
+  position: absolute;
+  bottom: 15px;
+  right: 65px;
 }

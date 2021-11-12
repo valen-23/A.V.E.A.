@@ -1,9 +1,11 @@
 @media screen and (max-width: 1100px) {
-  
-  .ilust, .ilust2, #timeline, .navbar {
+  .ilust,
+  .ilust2,
+  #timeline,
+  .navbar {
     display: none;
   }
-  
+
   *:hover {
     transform: none !important;
   }
@@ -24,7 +26,7 @@
   }
 
   .content1 h2 {
-    font-size: 60px;
+    font-size: 6px;
   }
 
   .content1 span {
@@ -39,7 +41,7 @@
     padding: 0;
   }
 
-  .content2 img{
+  .content2 img {
     width: 500px;
   }
 
@@ -61,26 +63,26 @@
   .home_content {
     display: grid;
     column-gap: 30px;
-    grid-template-columns: repeat(2,1fr);
+    grid-template-columns: repeat(2, 1fr);
   }
 
-  .card:hover{
+  .card:hover {
     transform: none;
   }
- 
-  .card:active{
-    transform: none
+
+  .card:active {
+    transform: none;
   }
 
   .card_header {
     padding: 0 15px;
   }
 
-  .card_header h2{
+  .card_header h2 {
     font-size: 28px;
   }
 
-  .card_header p{
+  .card_header p {
     font-size: 23px;
     margin-top: -20px;
   }
@@ -89,14 +91,14 @@
     width: 110px;
     height: 110px;
   }
- 
- .drawer a {
+
+  .drawer a {
     margin: 10px;
     padding: 5px;
     font-size: 20px;
   }
-  
-  .container h2{
+
+  .container h2 {
     font-size: 35px;
   }
 
@@ -107,19 +109,19 @@
   .acercade p {
     font-size: 25px;
   }
- 
+
   footer span {
     font-size: 30px;
   }
-
 }
 
 @media screen and (max-width: 800px) {
-  
-  .ilust, .ilust2, #timeline {
+  .ilust,
+  .ilust2,
+  #timeline {
     display: none;
   }
-  
+
   *:hover {
     transform: none !important;
   }
@@ -151,7 +153,7 @@
     padding: 0;
   }
 
-  .content2 img{
+  .content2 img {
     width: 300px;
   }
 
@@ -169,26 +171,26 @@
   .home_content {
     display: grid;
     column-gap: 30px;
-    grid-template-columns: repeat(1,1fr);
+    grid-template-columns: repeat(1, 1fr);
   }
 
-  .card:hover{
+  .card:hover {
     transform: none;
   }
- 
-  .card:active{
-    transform: none
+
+  .card:active {
+    transform: none;
   }
 
   .card_header {
     padding: 5px 15px;
   }
 
-  .card_header h2{
+  .card_header h2 {
     font-size: 26px;
   }
 
-  .card_header p{
+  .card_header p {
     font-size: 23px;
     margin-top: 0;
   }
@@ -201,7 +203,7 @@
     width: 110px;
     height: 110px;
   }
- 
+
   .drawer a {
     margin: 10px;
     padding: 5px;
@@ -216,12 +218,12 @@
   .container {
     width: 80%;
   }
-  
-  .container h2{
+
+  .container h2 {
     font-size: 25px;
   }
 
-  .container .content img{
+  .container .content img {
     width: 65px;
   }
 
@@ -232,9 +234,8 @@
   .acercade p {
     font-size: 15px;
   }
- 
+
   footer span {
     font-size: 20px;
   }
-
 }

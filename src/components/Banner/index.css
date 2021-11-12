@@ -1,50 +1,50 @@
 .banner {
-   margin-top: 75px;
-   width: 100%;
-   height: 100%;
-   background-size: cover;
-   background-attachment: fixed;
-   background-image: url('https://mendoza-camara.org/wp-content/uploads/2019/01/Bodegas-de-San-Rafael.jpg');
+  margin-top: 65px;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-attachment: fixed;
+  background-image: url("https://mendoza-camara.org/wp-content/uploads/2019/01/Bodegas-de-San-Rafael.jpg");
 }
 
 .banner_content {
-   width: 100%;
-   height: 100%;
-   padding: 20px 0;
-   display: flex;
-   align-items: center;
-   justify-content: space-around;
-   background-color: #2d0c35ca;
+  width: 100%;
+  height: 100%;
+  padding: 20px 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background-color: #2d0c35ca;
 }
 
 .content1 h2 {
-   color: #fff;
-   font-size: 45px;
-   letter-spacing: 0.100em;
-   padding: 30px 0;
+  color: #fff;
+  font-size: 45px;
+  letter-spacing: 0.1em;
+  padding: 30px 0;
 }
 
 .content1 span {
-   color: #eee;
-   font-size: 20px;
-   padding: 30px 0;
+  color: #eee;
+  font-size: 20px;
+  padding: 30px 0;
 }
 
 .content1 p {
-   color: #eee;
-   font-size: 30px;
-   padding: 30px 0;
+  color: #eee;
+  font-size: 30px;
+  padding: 30px 0;
 }
 
 .content2 {
-   padding: 40px 0;
+  padding: 40px 0;
 }
 
-.content2 img{
-   width: 350px;
-   transition: all .2s;
+.content2 img {
+  width: 350px;
+  transition: all 0.2s;
 }
 
-.content2 img:hover{
-   transform: scale(1.1);
+.content2 img:hover {
+  transform: scale(1.1);
 }

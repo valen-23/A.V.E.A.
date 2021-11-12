@@ -6,7 +6,6 @@ import MoreVertIcon from "@material-ui/icons/MoreVert";
 import "./index.css";
 
 export default function CardProducts(props) {
-
   const [isOpen, setIsOpen] = useState(false);
 
   return (
@@ -17,9 +16,11 @@ export default function CardProducts(props) {
           <a href="#ayuda">Ayuda</a>
         </div>
       )}
-      
+
       <div className="card_header">
-        <IconButton aria-label="settings" className="drawer_bt"
+        <IconButton
+          aria-label="settings"
+          className="drawer_bt"
           onClick={() => {
             setIsOpen(!isOpen);
           }}
@@ -33,7 +34,12 @@ export default function CardProducts(props) {
       <img src={props.card.image} alt="" className="card_img" />
 
       <Tooltip title="Realizá tu pedido por Wathsapp">
-        <a href="https://wa.me/5493534174147?text=Hola!! Estoy interesado en uno de sus productos..." target="_blank" rel="noreferrer">
+        <a
+          href="https://wa.me/5493534174147?text=Hola!! Estoy interesado en uno de sus productos..."
+          target="_blank"
+          rel="noreferrer"
+          className="bt_buy"
+        >
           COMPRAR
         </a>
       </Tooltip>
