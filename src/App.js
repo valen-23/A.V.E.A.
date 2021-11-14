@@ -196,7 +196,7 @@ function App() {
           <h3>Encontranos en:</h3>
           <span>
             <UbicIcon />
-            hfsiohfis
+            Esq. Buenos Aires y Gral. Paz
           </span>
           <span>
             <FacebookIcon />
