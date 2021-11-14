@@ -153,7 +153,7 @@ export default function Navbar() {
                 </IconButton>
               </Tooltip>
             </div>
-            <List>
+            <List className="nav_movile">
               <a href="#inicio">Inicio</a>
               <a href="#nosotros">Nosotros</a>
               <hr />
