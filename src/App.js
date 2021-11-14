@@ -186,7 +186,7 @@ function App() {
           Completá esta breve encuesta y hacenos saber tu experiencia en
           A.V.E.A.
         </h3>
-        <a href="https://forms.gle/PJ2WLJGpx4w2yVjm6">
+        <a href="https://forms.gle/PJ2WLJGpx4w2yVjm6" target="ng_blank">
           Ver formulario de encuesta
         </a>
       </div>
