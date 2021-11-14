@@ -225,6 +225,7 @@
 
   .container .content img {
     width: 65px;
+    height: 65px;
   }
 
   .acercade h2 {
@@ -235,7 +236,17 @@
     font-size: 15px;
   }
 
-  footer span {
-    font-size: 20px;
+  footer {
+    display: block;
+  }
+
+  footer section h3 {
+    font-size: 18px;
+    margin-left: 10px;
+  }
+
+  footer section span {
+    font-size: 15px;
+    margin-left: 20px;
   }
 }

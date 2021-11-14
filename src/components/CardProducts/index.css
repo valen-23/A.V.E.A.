@@ -45,10 +45,11 @@
 }
 
 .card a {
+  text-decoration: none;
   color: #fff;
   margin: 0 auto;
   font-size: 15px;
-  padding: 10px;
+  padding: 5px;
   width: 50%;
   margin-top: 8px;
   text-align: center;
@@ -57,14 +58,12 @@
 }
 
 .card a:hover {
-  color: #fff;
   background-color: #9c1e2f;
 }
 
 .drawer a {
   font-size: 17px;
-  margin: 10px;
-  padding: 2px;
+  margin: 4px;
   color: #333;
   background: none;
 }

@@ -15,6 +15,7 @@ import champagne4 from "./assets/alyda_salentein.jpg";
 import vino3 from "./assets/trapiche.jpg";
 import ilust from "./assets/undraw_wine_tasting_30vw.svg";
 import ilust2 from "./assets/undraw_nature_m5ll.svg";
+import UbicIcon from "@material-ui/icons/Room";
 import InstagramIcon from "@material-ui/icons/Instagram";
 import FacebookIcon from "@material-ui/icons/Facebook";
 import WhatsAppIcon from "@material-ui/icons/WhatsApp";
@@ -180,30 +181,44 @@ function App() {
           al cliente, nos capacitamos continuamente para lograr una mayor gama
           de conocimientos actuales, contamos con todos los métodos de pago.
         </p>
+        <br />
+        <h3>
+          Completá esta breve encuesta y hacenos saber tu experiencia en
+          A.V.E.A.
+        </h3>
+        <a href="https://forms.gle/PJ2WLJGpx4w2yVjm6">
+          Ver formulario de encuesta
+        </a>
       </div>
 
-      {/* <iframe
-        src="https://docs.google.com/forms/d/e/1FAIpQLSf9HxlTAme1LMvBUs62mxRKnCC13hek7JyVB_Ttw_c1f2g92g/viewform?embedded=true"
-        width="600"
-        height="700"
-        frameborder="0"
-        marginheight="0"
-        marginwidth="0"
-      /> */}
-
       <footer>
-        <span>
-          <FacebookIcon />
-          @avea_vinosyespumantes
-        </span>
-        <span>
-          <InstagramIcon />
-          @avea.vinosyespumantes
-        </span>
-        <span>
-          <WhatsAppIcon />
-          864924629
-        </span>
+        <section>
+          <h3>Encontranos en:</h3>
+          <span>
+            <UbicIcon />
+            hfsiohfis
+          </span>
+          <span>
+            <FacebookIcon />
+            @aveavinosyespumantes
+          </span>
+          <span>
+            <InstagramIcon />
+            @aveavinosyespumantes
+          </span>
+          <span>
+            <WhatsAppIcon />
+            353 864924629
+          </span>
+        </section>
+
+        <section>
+          <h3>Interantes del Grupo:</h3>
+          <span>Martinez Emi</span>
+          <span>Pagani Valentino</span>
+          <span>Perez Agustín</span>
+          <span>Zanellato Agustín</span>
+        </section>
       </footer>
     </div>
   );

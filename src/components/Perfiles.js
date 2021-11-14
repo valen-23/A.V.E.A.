@@ -1,8 +1,8 @@
-import Tooltip from "@material-ui/core/Tooltip"
-import martinez from "../assets/martinez.png"
-import pagani from "../assets/pagani.png"
-import perez from "../assets/perez.png"
-import zanellato from "../assets/zanellato.png"
+import Tooltip from "@material-ui/core/Tooltip";
+import martinez from "../assets/perfilEmi.png";
+import pagani from "../assets/perfilValentino.png";
+import perez from "../assets/perfilAgustinP.png";
+import zanellato from "../assets/perfilAgustinZ.png";
 
 function Perfiles() {
   return (
@@ -21,9 +21,9 @@ function Perfiles() {
         <Tooltip title="Zanellato Agustín">
           <img src={zanellato} alt="" />
         </Tooltip>
-        </div>
+      </div>
     </div>
-  )
+  );
 }
 
-export default Perfiles
+export default Perfiles;
