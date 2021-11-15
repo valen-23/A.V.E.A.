@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import Navbar from "./components/Navbar.js";
 import TransitionAlerts from "./components/AlertModal.js";
 import Banner from "./components/Banner/index";
@@ -21,6 +21,7 @@ import FacebookIcon from "@material-ui/icons/Facebook";
 import WhatsAppIcon from "@material-ui/icons/WhatsApp";
 import "./index.css";
 import "./movile.css";
+import Loading from "./screens/Loading.js";
 
 function App() {
   const [champagnes] = React.useState([
@@ -101,6 +102,15 @@ function App() {
       Tooltip: "( pesos argentinos)",
     },
   ]);
+
+  const [loading, setLoading] = useState(true);
+  setTimeout(() => {
+    setLoading(false);
+  }, 2000);
+
+  if (loading) {
+    return <Loading />;
+  }
 
   return (
     <div className="home">
@@ -188,6 +198,14 @@ function App() {
         </h3>
         <a href="https://forms.gle/PJ2WLJGpx4w2yVjm6" target="ng_blank">
           Ver formulario de encuesta
+        </a>
+        <br />
+        <h3>Visitá nuestro catálogo de productos:</h3>
+        <a
+          href="https://www.canva.com/design/DAEvwuAVTf0/A3N07U3woZ3U7JHhuRh0AA/view"
+          target="ng_blank"
+        >
+          Ver catálogo
         </a>
       </div>
 

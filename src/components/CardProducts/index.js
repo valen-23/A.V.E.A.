@@ -12,8 +12,13 @@ export default function CardProducts(props) {
     <Card className="card">
       {isOpen && (
         <div className="drawer">
-          <a href="mailto:paganivalentinosk@gmail.com">Reportar</a>
-          <a href="#ayuda">Ayuda</a>
+          <a
+            href="https://www.ncsc.gov.uk/section/about-this-website/report-scam-website"
+            target="ng_blank"
+          >
+            Reportar
+          </a>
+          <a href="mailto:paganivalentinosk@gmail.com">Ayuda</a>
         </div>
       )}
 
